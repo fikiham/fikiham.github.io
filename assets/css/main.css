@@ -467,6 +467,9 @@ input[type=button]:focus {
 .blurb__copy--tight {
   max-width: 450px;
 }
+.blurb__current {
+  margin: 0 0 15px 15px;
+}
 
 .title {
   margin: 0 0 45px 0;
@@ -815,24 +818,48 @@ input[type=button]:focus {
 }
 .app-design__visual {
   position: absolute;
-  top: 35px;
+  top: 15%;
   left: 45%;
-  width: 1036px;
-  height: 659px;
+  width: 860px;
+  height: 450px;
   margin: 0;
-  background-image: url("../img/app-design-visual.png");
+  background-image: url("../img/game-wall-riders.png");
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
 }
 .app-design__visual_2 {
   position: absolute;
-  top: 35px;
-  left: 65%;
-  width: 500px;
+  top: 25%;
+  left: 50%;
+  width: 650px;
+  height: 360px;
+  margin: 0;
+  background-image: url("../img/game-BHC.gif");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.app-design__visual_3 {
+  position: absolute;
+  top: 15%;
+  left: 45%;
+  width: 800px;
   height: 450px;
   margin: 0;
-  background-image: url("../img/I-cant-fucking-design.png");
+  background-image: url("../img/game-pulang-sekolah-2.gif");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.app-design__visual_4 {
+  position: absolute;
+  top: 10px;
+  left: 65%;
+  width: 300px;
+  height: 540px;
+  margin: 0;
+  background-image: url("../img/game-revolving-guns1.png");
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
