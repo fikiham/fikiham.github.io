@@ -7,9 +7,10 @@
 	height: 100vh
 	align-items: center
 	justify-content: center
+	background-color: $bg-secondary
 	
 	&::before
-		content: "JM"
+		content: "AM"
 		position: absolute
 		top: 50%
 		left: 50%
@@ -37,7 +38,7 @@
 				font-size: 16vw
 				text-align: center
 				text-transform: uppercase
-				text-shadow: 10px 18px 35px rgba(88,88,88,.23)
+				text-shadow: 10px 18px 35px rgba(0,0,0,.23)
 				
 			&--job
 				transform: translateX(30px)
@@ -189,6 +190,19 @@
 			position: center
 			size: 100%
 			repeat: no-repeat
+
+	&__visual_2
+		position: absolute
+		top: 35px
+		left: 65%
+		width: 500px
+		height: 450px
+		margin: 0
+		background:
+			image: url("../img/I-cant-fucking-design.png")
+			position: center
+			size: 100%
+			repeat: no-repeat
 			
 	@media (max-width: 991px)
 			
@@ -312,7 +326,6 @@
 	position: relative
 	width: 100%
 	padding: 120px 0 60px 0
-	background-color: $bg-secondary
 		
 	&__list
 		position: relative
@@ -456,6 +469,7 @@
 .blog
 	position: relative
 	padding: 60px 0
+	background-color: $bg-secondary
 		
 	&__wrapper
 		display: flex
