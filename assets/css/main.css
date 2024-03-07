@@ -674,6 +674,7 @@ input[type=button]:focus {
 }
 .introduction__content-el--name {
   transform: translateX(-30px);
+  text-align: right;
   opacity: 0;
 }
 .introduction__content-el--description {
@@ -687,7 +688,7 @@ input[type=button]:focus {
 }
 .introduction__content-el--job {
   transform: translateX(30px);
-  text-align: right;
+  text-align: left;
   opacity: 0;
 }
 .introduction__arrow {
