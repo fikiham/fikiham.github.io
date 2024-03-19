@@ -820,7 +820,7 @@ input[type=button]:focus {
 .app-design__visual {
   position: absolute;
   top: 15%;
-  left: 50%;
+  left: 55%;
   width: 860px;
   height: 450px;
   margin: 0;
@@ -865,7 +865,7 @@ input[type=button]:focus {
   background-size: 100%;
   background-repeat: no-repeat;
 }
-.app-design__visual_4 {
+.app-design__visual_5 {
   position: absolute;
   top: 10px;
   left: 65%;
