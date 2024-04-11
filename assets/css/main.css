@@ -345,7 +345,7 @@ textarea {
   width: 980px;
 }
 .wrapper--large {
-  width: 1170px;
+  width: 100%;
 }
 
 .splashscreen {
@@ -814,15 +814,15 @@ input[type=button]:focus {
 .app-design {
   position: relative;
   width: 100%;
-  padding: 180px 0;
+  padding: 120px 0;
   overflow: hidden;
 }
 .app-design__visual {
   position: absolute;
-  top: 15%;
-  left: 55%;
-  width: 860px;
-  height: 450px;
+  top: 20%;
+  left: 49%;
+  width: 50vw;
+  height: 55vh;
   margin: 0;
   background-image: url("../img/game-wall-riders.png");
   background-position: center;
@@ -831,10 +831,10 @@ input[type=button]:focus {
 }
 .app-design__visual_2 {
   position: absolute;
-  top: 25%;
-  left: 50%;
-  width: 650px;
-  height: 360px;
+  top: 20%;
+  left: 49%;
+  width: 50vw;
+  height: 55vh;
   margin: 0;
   background-image: url("../img/game-BHC.gif");
   background-position: center;
@@ -843,10 +843,10 @@ input[type=button]:focus {
 }
 .app-design__visual_3 {
   position: absolute;
-  top: 15%;
-  left: 45%;
-  width: 800px;
-  height: 450px;
+  top: 20%;
+  left: 49%;
+  width: 50vw;
+  height: 55vh;
   margin: 0;
   background-image: url("../img/game-pulang-sekolah-2.gif");
   background-position: center;
@@ -857,8 +857,8 @@ input[type=button]:focus {
   position: absolute;
   top: 10px;
   left: 65%;
-  width: 300px;
-  height: 540px;
+  width: 20vw;
+  height: 100%;
   margin: 0;
   background-image: url("../img/game-revolving-guns1.png");
   background-position: center;
@@ -867,10 +867,10 @@ input[type=button]:focus {
 }
 .app-design__visual_5 {
   position: absolute;
-  top: 10px;
-  left: 55%;
-  width: 800px;
-  height: 540px;
+  top: 20%;
+  left: 49%;
+  width: 50vw;
+  height: 55vh;
   margin: 0;
   background-image: url("../img/game-monsters-emerging-1.png");
   background-position: center;
